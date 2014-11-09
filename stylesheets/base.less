@@ -1,5 +1,6 @@
 @import "syntax-variables";
 
+
 .editor-colors {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
@@ -12,6 +13,7 @@
   .wrap-guide {
     background-color: @syntax-wrap-guide-color;
   }
+
 
   .indent-guide {
     color: @syntax-indent-guide-color;
@@ -27,7 +29,6 @@
 
     .line-number {
       &.cursor-line {
-        background-color: @syntax-gutter-background-color-selected;
         color: @syntax-gutter-text-color-selected;
       }
 
@@ -53,6 +54,7 @@
 
   .selection .region {
     background-color: @gray;
+    opacity: 0.6;
   }
 }
 
