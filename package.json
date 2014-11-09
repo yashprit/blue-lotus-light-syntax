@@ -3,7 +3,7 @@
   "theme": "syntax",
   "version": "1.0.0",
   "description": "A short description of your syntax theme",
-  "repository": "https://github.com/yashprit/atom-enhance-light-syntax.git",
+  "repository": "https://github.com/yashprit/blue-lotus-light-syntax.git",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
